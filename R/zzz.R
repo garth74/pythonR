@@ -1,5 +1,5 @@
 .onAttach <- function(libname, pkgname) {
-  packages <- .pythonR_packages()
+  packages <- .pyRomatics_packages()
   installed <- packages[vapply(packages, .is_installed, logical(1))]
   if (length(installed)) {
     is_not_attached <- installed[!vapply(installed, .is_attached, logical(1))]
