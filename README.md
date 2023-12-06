@@ -19,9 +19,9 @@ libraries transitioning to or working concurrently in R.
 
 Thus, the goal of *pythonicr* is to provide a collection of R functions
 that are similarly named and behaviorally comparable to those most
-commonly used in python. My hope is that these packages will reduce the
+commonly used in Python. My hope is that these packages will reduce the
 learning curve for Python users venturing into R and keep myself from
-asking, “How do I do that in R, again?”.
+asking, “How do I do that in R, again?”
 
 ## Installation
 
