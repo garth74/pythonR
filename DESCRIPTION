@@ -1,6 +1,6 @@
-Package: pyRomatics
+Package: pythonicr
 Title: Pythonic R
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person("Garrett", "Shipley", , "garrett.shipley7@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
@@ -12,6 +12,6 @@ RoxygenNote: 7.2.3
 Imports: 
     remotes
 Remotes:
-    pyRomatics/re,
-    pyRomatics/strs,
-    pyRomatics/sets
+    pythonicr/re,
+    pythonicr/strs,
+    pythonicr/sets

@@ -1,4 +1,4 @@
-# pyRomatics
+# pythonicr
 
-pyRomatics is a collection of packages that aim to reduce the cognitive load of
+pythonicr is a collection of packages that aim to reduce the cognitive load of
 switching between R and Python.
