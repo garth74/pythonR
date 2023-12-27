@@ -1,6 +1,8 @@
-PACKAGES <- c("pathlib", "re", "strs", "sets")
-REPOS <- paste0("pythonicr/", PACKAGES)
+#' @export
+.PYTHONICR_PACKAGES <- c("pathlib", "re", "strs", "sets")
 
+#' @export
+.PYTHONICR_REPOS <- paste0("pythonicr/", .PYTHONICR_PACKAGES)
 
 #' Install the pythonicr packages
 #'
@@ -8,7 +10,7 @@ REPOS <- paste0("pythonicr/", PACKAGES)
 #'
 #' @export
 pythonicr_install_packages <- function() {
-  invisible(lapply(REPOS, remotes::install_github, quiet = TRUE))
+  invisible(lapply(.PYTHONICR_REPOS, remotes::install_github, quiet = TRUE))
 }
 
 #' Update the pythonicr packages

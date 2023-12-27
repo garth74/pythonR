@@ -1,0 +1,7 @@
+url: https://pythonicr.github.io/pythonicr/
+template:
+  bootstrap: 5
+  package: pythonicrtemplate
+
+development:
+  mode: auto

@@ -11,7 +11,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Imports: 
     remotes
-Remotes:
-    pythonicr/re,
-    pythonicr/strs,
-    pythonicr/sets
+Config/Needs/website: pythonicr/pythonicrtemplate
+URL: https://pythonicr.github.io/pythonicr/,
+    https://github.com/pythonicr/pythonicr/,
+BugReports: https://github.com/pythonicr/pythonicr/issues

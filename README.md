@@ -1,27 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# pythonicr
+# pythonicr – *Pythonic R*
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of pythonicr is to make it easier for people to switch between
-Python and R. In data science and statistical computing, R and Python
-are two of the most popular programming languages, each with unique
-strengths. R is renowned for its statistical and graphical capabilities,
-while Python is celebrated for its simplicity, readability, and
-versatile functionality. However, each language has it’s own set of
-idioms and “gotchas” that often poses a challenge for users who wish to
-leverage the strengths of both languages. This is particularly true for
-those accustomed to Python’s intuitive syntax and extensive built-in
-libraries transitioning to or working concurrently in R.
-
-Thus, the goal of *pythonicr* is to provide a collection of R functions
-that are similarly named and behaviorally comparable to those most
-commonly used in Python. My hope is that these packages will reduce the
-learning curve for Python users venturing into R and keep myself from
-asking, “How do I do that in R, again?”
+A collection of packages that aims to reduce the learning curve for
+Python users venturing into R and to keep myself from asking, “How do I
+do that in R again?”
 
 ## Installation
 
@@ -47,6 +34,8 @@ pythonicr::pythonicr_install_packages()
 Each *pythonicr* package has its own purpose, so the best way to get
 started is by poking around and seeing what might be useful to you.
 
+- [**pathlib**](https://pythonicr.github.io/pathlib/): Python-ish path
+  manipulations
 - [**re**](https://pythonicr.github.io/re/): Python-ish regular
   expressions
 - [**sets**](https://pythonicr.github.io/sets/): Python-ish set
@@ -56,8 +45,8 @@ started is by poking around and seeing what might be useful to you.
 
 ## Dependencies
 
-Most of the packages are wrappers for more matured R packages. That
-said, I have tried to keep the dependencies to a minimum.
+Most of the packages are wrappers for more mature R packages. That said,
+I have tried to keep the dependencies to a minimum.
 
 ## Contributing
 
