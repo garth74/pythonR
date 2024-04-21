@@ -13,15 +13,15 @@ The aim of *pythonicr* is to make switching between Python and R easier by provi
 Many of the packages are still actively being developed, so I haven't put them on CRAN yet. You can install the development version of pythonicr from [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("pythonicr/pythonicr")
+# install.packages("remotes")
+remotes::install_github("pythonicr/pythonicr")
 ```
 
 To install all of the available packages:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("pythonicr/pythonicr")
+# install.packages("remotes")
+remotes::install_github("pythonicr/pythonicr")
 pythonicr::pythonicr_install_packages()
 ```
 
