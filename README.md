@@ -1,12 +1,18 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# pythonicr - *Pythonic R* <a href="https://github.com/pythonicr/pythonicr/"><img src="man/figures/logo.png" align="right" height="138" alt=""/></a>
+# PythonicR: Bringing Python's Standard Library to R <a href="https://github.com/pythonicr/pythonicr/"><img src="man/figures/logo.png" align="right" height="138" alt=""/></a>
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The aim of *pythonicr* is to make switching between Python and R easier by providing R packages that use the same names and have *nearly* identical behaviors as those in the Python standard library.
+## Overview
+
+**PythonicR** is an organization dedicated to creating R packages that mirror the functionality and naming conventions of the Python standard library. We aim to ease developers' transition between Python and R by providing familiar functions and consistent naming conventions. With PythonicR, you can enjoy the power and flexibility of R without the cognitive load of remembering different function names and behaviors.
+
+## Motivation
+
+As developers, we often switch between programming languages, each with its unique syntax and naming conventions. Python's standard library is known for its simplicity and uniformity, making it easy to remember and use. However, R's powerful but diverse set of functions can sometimes be a hurdle for those accustomed to Python. **PythonicR** aims to bridge this gap by providing R packages that emulate Python's standard library, making it easier for Python developers to use R.
 
 ## Installation
 
